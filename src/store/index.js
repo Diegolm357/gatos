@@ -23,7 +23,7 @@ export default new Vuex.Store({
   actions: {
     levantarMichis(context){
       axios
-      .get('https://61b145c33c954f001722a877.mockapi.io/michis')
+      .get('https://61b145c33c954f00172277.mockapi.io/michis')
       .then(data => {
         context.commit("MICHIS", data.data)
         context.commit("LOADING_MICHIS", false)
@@ -35,7 +35,7 @@ export default new Vuex.Store({
 
       axios
         .post(
-          `https://61b145c33c954f001722a877.mockapi.io/michis`,
+          `https://61b145c33c954f0017227.mockapi.io/michis`,
           payload
 
         )

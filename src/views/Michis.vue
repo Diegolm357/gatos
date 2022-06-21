@@ -1,7 +1,7 @@
 <template>
   <div class="michis">
     <NavBar />
-    <h2 class="mb-2 text-center">Estos son todos los michis</h2>
+    <h2 class="mb-2 text-center">Estos son todos los Gatitos</h2>
     <TablaGatos />
   </div>
 </template>
